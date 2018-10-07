@@ -5,7 +5,7 @@ MSP430G2553 has two timers, Timer0_A and Timer1_A. Timer0_A being the default, i
 
 |Term| Description|
 |---| ------------|
-|TA0R| is the TimerA_0 Register\
+|TA0R| is the TimerA_0 Register|
 |TA0CCR0|is the capture/compare register which is used as the terminal count when counting UP.|
 |TA0CTL| is the control register used to configure the timer.|
 |TASSEL_2|selects the internal 1MHZ Clock (SMCLK).|
