@@ -1,6 +1,9 @@
 # Hardware PWM
 Now that you have done the software version of PWM, now it is time to start leveraging the other features of these Timer Modules.
 
+### Demo Video
+https://youtu.be/DdieDd9P6ZY
+
 ## Task
 You need to replicate the same behavior as in the software PWM, only using the Timer Modules ability to directly output to a GPIO Pin instead of managing them in software. One way to thing about what should happen is that unless your are doing some other things in your code, your system should initialize, set the Timer Modules, and then turn off the CPU.
 
