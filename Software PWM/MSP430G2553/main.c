@@ -26,7 +26,7 @@ int main(void)
 //TimerA_1 is configured for Debouncing
 
     TA1CCTL0 = CCIE;         // Interrupt is enabled
-    TA1CCR0 = 50000;         // Capture/compare register counts upto 10ms
+    TA1CCR0 = 60000;         // Capture/compare register counts upto 10ms
 
 
     P1DIR &= ~BIT3;          // Port1's Direction register is set to 0 at pin 1.3(to make it as an input pin)
