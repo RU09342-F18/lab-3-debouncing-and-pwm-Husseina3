@@ -5,4 +5,5 @@ In this part of the lab a software pulse width modulation was implemented by gen
 The first thing that was done on the implementation process was to initialize the duty cycle of PWW as 50%. The buttons that send the interrupt were set for the respective microcontroller. 
 Both TimerA_0 and TimerA_1 were configured for Debouncing and PWM purposes.Then in the Interrupt service routine the PWM duty cycle was set to increase 10% every button press. 
 
-
+### Demo Video
+https://youtu.be/ZfYTflezPIs
